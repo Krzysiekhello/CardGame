@@ -1,0 +1,17 @@
+#scoreContainer {
+    height: 10vh;
+    width: 60vw;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #ff5722;
+    line-height: 10vh;
+}
+#scoreElements {
+    display: flex;
+}
+#scoreElements h3 {
+    margin-left: 20px;
+}
+#scoreElements p {
+    margin: auto;
+}

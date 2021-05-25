@@ -1,0 +1,41 @@
+#winComponentContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0003;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+#winComponent {
+    height: 50vh;
+    width: 60vh;
+    margin: 100px  auto;
+    background-color: #ff5722;
+    box-shadow: 0 0 20px 0 #0008;
+    border-radius: 50px 50px 16px 16px;
+}
+#winComponent h1 {
+    text-align: center;
+}
+#winComponent button {
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translateX(-50%);
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+}
+#winComponent a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+#statistics p {
+    float: left;
+    margin: 15px 18px;
+}
